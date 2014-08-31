@@ -1,3 +1,4 @@
 {
-  "api_key": "OVERRIDE IN LOCAL"
+  "application_id": "OVERRIDE IN LOCAL",
+  "application_secret": "OVERRIDE IN LOCAL"
 }
