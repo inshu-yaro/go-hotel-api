@@ -7,9 +7,13 @@ import json
 def index():
     return jsonify({})
 
-@go_hotel.route('/hotel')
+@go_hotel.route('/hotels')
 def send_hotels():
 	client = RakutenClient("1023510790824912140")
 	# response = client.travel.vacant_hotel_search(checkin_date="2014-10-01", checkout_date="2014-10-01", latitude=128440.51,longitude=503172.21,searchRadius=1)
 	response = client.travel.vacant_hotel_search(**request.args)
 	return json.dumps(response, ensure_ascii=False)
+
+# @go_hotel.route('/post')
+# def insert_db():
+# 	request.args
