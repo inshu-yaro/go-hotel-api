@@ -1,4 +1,8 @@
 {
   "application_id": "OVERRIDE IN LOCAL",
-  "application_secret": "OVERRIDE IN LOCAL"
+  "application_secret": "OVERRIDE IN LOCAL",
+  "username": "OVERRIDE IN LOCAL",
+  "password": "OVERRIDE IN LOCAL",
+  "server": "OVERRIDE IN LOCAL",
+  "db": "OVERRIDE IN LOCAL"
 }
